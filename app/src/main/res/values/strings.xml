@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">KCSアラーム</string>
+    <string name="button">アラーム一覧</string>
+    <string name="button2">アラーム履歴</string>
+    <string name="button5">新規</string>
+    <string name="button6">戻る</string>
+    <string name="button7">戻る</string>
+    <string name="button8">保存</string>
+    <string name="app_name2">登録</string>
+    <string name="text">7時10分</string>
+    <string name="textView4">名前</string>
+    <string name="textView5">ボイス</string>
+    <string name="button9">戻る</string>
+    <string name="button10">保存</string>
+    <string name="switch1">スヌーズ</string>
+    <string name="alarm_list_fix">修正</string>
+    <string name="alarm_list_delete">削除</string>
+
+
+</resources>
