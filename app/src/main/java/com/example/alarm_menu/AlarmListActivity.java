@@ -1,5 +1,6 @@
 package com.example.alarm_menu;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -20,6 +21,16 @@ public class AlarmListActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 finish();
+            }
+        });
+        Button button5 = findViewById(R.id.button5);
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent intent = new Intent(getApplication(), AlarmRegisterActivity.class);
+                startActivity(intent);
             }
         });
 
